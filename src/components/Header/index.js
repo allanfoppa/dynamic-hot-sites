@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import colors from '../../assets/css/colors'
 
 // Sai quando for consultado a API
-import appLogo from '../../assets/images/king.png'
+import appLogo from '../../assets/images/sub.png'
 
 const Header = styled.header`
     width: 100%;

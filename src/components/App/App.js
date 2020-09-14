@@ -10,10 +10,10 @@ import Footer 		from '../Footer'
 
 function App() {
 
+	const [ apiName, setapiName ] = useState('')
+	const [ apiLogo, setapiLogo ] = useState('')
 	const [ apiBGColor, setapiBGColor ] = useState('')
 	const [ apiColor, setapiColor ] = useState('')
-	const [ apiLogo, setapiLogo ] = useState('')
-	const [ apiName, setapiName ] = useState('')
 
 	useEffect(() => {
 		axios.get('styles.json')

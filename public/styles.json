@@ -1,7 +1,7 @@
 {
     "institucional":
     {
-        "name": "YAEEHHHH"
+        "name": "Subway"
     },
     "images":
     {
@@ -9,7 +9,7 @@
     },
     "style":
     {
-        "backgroundColor": "#cace4e",
-        "color": "#3ace4e"
+        "backgroundColor": "",
+        "color": ""
     }
 }

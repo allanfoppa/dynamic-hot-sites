@@ -42,7 +42,6 @@ const MapLinkText = styled.span`
 `
 
 function AboutText(props){
-
     return(
         <section>
             <AboutTitle newColor={props.newColor}>
@@ -53,7 +52,7 @@ function AboutText(props){
             </AboutDescription>
 
             <MapLink tag="a" href="#map">
-                <FaMapMarkedAlt size={40} color={props.newColor}></FaMapMarkedAlt>
+                <FaMapMarkedAlt size={40} color={props.newColor || colors.primary}></FaMapMarkedAlt>
                 <MapLinkText newColor={props.newColor}>ver no mapa</MapLinkText>
             </MapLink>
         </section>
